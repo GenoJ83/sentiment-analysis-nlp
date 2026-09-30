@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.bin
+*.onnx
+models/saved_weights/
+.pytest_cache/
+.DS_Store
