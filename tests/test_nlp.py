@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("torch")
 """Unit tests for text preprocessing, transformer model, and API."""
 from src.preprocessing.text_cleaner import TextCleaner
 from src.models.train_transformer import TransformerSentimentClassifier

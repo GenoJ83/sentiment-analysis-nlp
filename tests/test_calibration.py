@@ -1,6 +1,5 @@
 """Tests for temperature calibration."""
 import numpy as np
-from src.inference.temperature_scaling.py import CalibratedPredictor if False else None
 from src.inference.temperature_scaling import CalibratedPredictor
 
 def test_temperature_scaling():
